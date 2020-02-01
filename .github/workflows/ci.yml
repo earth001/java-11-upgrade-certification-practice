@@ -1,4 +1,4 @@
-name: Build sample Java Maven project
+name: java-11-upgrade-certification-practice
 
 on: [push, pull_request]
 
