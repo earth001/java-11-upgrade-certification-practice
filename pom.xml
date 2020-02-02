@@ -10,6 +10,8 @@
   <modules>
     <module>people</module>
     <module>greeting</module>
+    <module>question</module>
+    <module>conversation</module>
   </modules>
   <name>java-11-upgrade-certification-practice</name>
   <description>Java 11 Samples</description>
