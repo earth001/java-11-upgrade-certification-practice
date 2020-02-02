@@ -1,2 +1,3 @@
-module $MODULE_NAME$ {
+module greating {
+  requires people;
 }

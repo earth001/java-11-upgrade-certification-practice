@@ -1,3 +1,3 @@
-module com.greating {
-  requires com.people;
+module people {
+  exports com.name;
 }
