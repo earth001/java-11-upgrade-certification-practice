@@ -1,4 +1,4 @@
-module greating {
+module greeting {
   requires people;
   requires java.logging;
 }

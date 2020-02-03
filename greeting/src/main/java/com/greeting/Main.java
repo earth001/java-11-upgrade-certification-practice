@@ -1,4 +1,4 @@
-package com.greating;
+package com.greeting;
 
 import com.name.Names;
 import com.question.Questions;
