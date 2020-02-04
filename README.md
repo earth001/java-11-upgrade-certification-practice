@@ -14,4 +14,12 @@ Run: `myimage/bin/java -m greeting/com.greeting.Main`
 
 ## Migration with jdeps
 
-` jdeps -summary --module-path conversation/target/conversation-0.0.1-SNAPSHOT.jar:people/target/people-0.0.1-SNAPSHOT.jar greeting/target/greeting-0.0.1-SNAPSHOT.jar`
+Show dependencies: ` jdeps -R -summary --module-path conversation/target/conversation-0.0.1-SNAPSHOT.jar:people/target/people-0.0.1-SNAPSHOT.jar greeting/target/greeting-0.0.1-SNAPSHOT.jar`
+
+Generate `module-info.java`: `jdeps --generate-module-info module-info-files lib/* dist/*`
+
+Strategies:
+
+1.- Break cyclic dependencies with split packages and new modules. 
+2.- Top-down migration (Migrate application first, libraries latter)
+3.- Bottom-up migration (Library first, application latter)
