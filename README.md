@@ -20,6 +20,6 @@ Generate `module-info.java`: `jdeps --generate-module-info module-info-files lib
 
 Strategies:
 
-1.- Break cyclic dependencies with split packages and new modules. 
+1.- Break cyclic dependencies and split packages with refactor and new modules. 
 2.- Top-down migration (Migrate application first, libraries latter)
 3.- Bottom-up migration (Library first, application latter)
