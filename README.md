@@ -12,3 +12,6 @@ Optimize image: `jlink --module-path people/target/people-0.0.1-SNAPSHOT.jar:con
 
 Run: `myimage/bin/java -m greeting/com.greeting.Main`
 
+## Migration with jdeps
+
+` jdeps -summary --module-path conversation/target/conversation-0.0.1-SNAPSHOT.jar:people/target/people-0.0.1-SNAPSHOT.jar greeting/target/greeting-0.0.1-SNAPSHOT.jar`
