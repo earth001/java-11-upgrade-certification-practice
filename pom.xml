@@ -10,7 +10,10 @@
   <modules>
     <module>people</module>
     <module>greeting</module>
-    <module>conversation</module>
+    <module>header</module>
+    <module>spanish</module>
+    <module>english</module>
+    <module>main</module>
   </modules>
   <name>java-11-upgrade-certification-practice</name>
   <description>Java 11 Samples</description>

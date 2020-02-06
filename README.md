@@ -10,7 +10,7 @@ Build: `jlink --module-path people/target/people-0.0.1-SNAPSHOT.jar:conversation
 
 Optimize image: `jlink --module-path people/target/people-0.0.1-SNAPSHOT.jar:conversation/target/conversation-0.0.1-SNAPSHOT.jar:greeting/target/greeting-0.0.1-SNAPSHOT.jar:$JAVA_HOME/jmods --add-modules greeting --strip-debug --compress=2 --output myimagecompress` 
 
-Run: `myimage/bin/java -m greeting/com.greeting.Main`
+Run: `myimage/bin/java -m greeting/com.main.Main`
 
 ## Migration with jdeps
 
