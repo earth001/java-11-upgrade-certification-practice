@@ -17,8 +17,9 @@ public class NameFactory implements Factory {
   }
 
   public List<Name> getNames() throws IOException, URISyntaxException {
-    System.out.println("getNames from Java 11");
-    var input = Files.readString(Paths.get(ClassLoader.getSystemResource(datasource).toURI()),
+    System.out.println("getNames from Java 10");
+    var input = new String(
+        Files.readAllBytes(Paths.get(ClassLoader.getSystemResource(datasource).toURI())),
         StandardCharsets.UTF_8);
     var mapper = new ObjectMapper();
     return mapper.readValue(input, new TypeReference<>() {
