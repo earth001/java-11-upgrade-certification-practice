@@ -17,6 +17,7 @@ public class Main {
     log.info(Headers.getHeader());
     var factory = new NameFactory("names.json");
     for (var salutation : salutations) {
+      log.info(String.format("Using service %s", salutation.getClass().getName()));
       for (var name : factory.getNames()) {
         log.info(
             String.format("%s %s", salutation.getHello(), name.getName()));
