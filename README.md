@@ -34,4 +34,4 @@ See config in people module's pom.xml.
 
 # Main module execution
 
-java -jar -p people/target/people-0.0.1-SNAPSHOT.jar:main/target/main-0.0.1-SNAPSHOT.jar:header/target/header-0.0.1-SNAPSHOT.jar:greeting/target/greeting-0.0.1-SNAPSHOT.jar:spanish/target/spanish-0.0.1-SNAPSHOT.jar:$HOME/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar:$HOME/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar:$HOME/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar -m main/com.main.Main
+`java -jar -p people/target/people-0.0.1-SNAPSHOT.jar:main/target/main-0.0.1-SNAPSHOT.jar:header/target/header-0.0.1-SNAPSHOT.jar:greeting/target/greeting-0.0.1-SNAPSHOT.jar:spanish/target/spanish-0.0.1-SNAPSHOT.jar:$HOME/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar:$HOME/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar:$HOME/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar -m main/com.main.Main`
