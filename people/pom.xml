@@ -15,9 +15,9 @@
     <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
-    <java10-outputdirectory>${project.build.outputDirectory}/META-INF/versions/10
-    </java10-outputdirectory>
-    <java10-build-directory>${project.build.directory}/classes-java12</java10-build-directory>
+    <java12-outputdirectory>${project.build.outputDirectory}/META-INF/versions/12
+    </java12-outputdirectory>
+    <java12-build-directory>${project.build.directory}/classes-java12</java12-build-directory>
     <maven-antrun-plugin.version>1.8</maven-antrun-plugin.version>
     <maven-jar-plugin.version>2.3.1</maven-jar-plugin.version>
   </properties>
