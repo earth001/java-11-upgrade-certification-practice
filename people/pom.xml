@@ -17,7 +17,7 @@
     <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
     <java10-outputdirectory>${project.build.outputDirectory}/META-INF/versions/10
     </java10-outputdirectory>
-    <java10-build-directory>${project.build.directory}/classes-java10</java10-build-directory>
+    <java10-build-directory>${project.build.directory}/classes-java12</java10-build-directory>
     <maven-antrun-plugin.version>1.8</maven-antrun-plugin.version>
     <maven-jar-plugin.version>2.3.1</maven-jar-plugin.version>
   </properties>
@@ -55,8 +55,8 @@
               <goal>compile</goal>
             </goals>
             <configuration>
-              <source>11</source>
-              <target>11</target>
+              <source>12</source>
+              <target>12</target>
             </configuration>
           </execution>
           <execution>
@@ -66,11 +66,11 @@
               <goal>compile</goal>
             </goals>
             <configuration>
-              <release>10</release>
+              <release>12</release>
               <compileSourceRoots>
-                <compileSourceRoot>${project.basedir}/src/main/java10</compileSourceRoot>
+                <compileSourceRoot>${project.basedir}/src/main/java12</compileSourceRoot>
               </compileSourceRoots>
-              <outputDirectory>${project.build.outputDirectory}/META-INF/versions/10
+              <outputDirectory>${project.build.outputDirectory}/META-INF/versions/12
               </outputDirectory>
             </configuration>
           </execution>
