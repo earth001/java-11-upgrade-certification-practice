@@ -28,6 +28,12 @@ Strategies:
 
 See config in people module's pom.xml.
 
+# Inheritance rules of `default` methods
+
+1. A superclass method takes priority over an interface default method.
+2. A subtype interface's default method takes priority over a supertype interface's default method.
+3. If there a conflict, treat the default method as abstract. 
+
 # Compilation
 
 `mvn clean package` -> Require Java 12 onwards. 
