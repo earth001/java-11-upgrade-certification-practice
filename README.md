@@ -34,6 +34,24 @@ See config in people module's pom.xml.
 2. A subtype interface's default method takes priority over a supertype interface's default method.
 3. If there a conflict, treat the default method as abstract. 
 
+# Check deprecation APIs
+
+```
+jdeprscan
+
+Usage: jdeprscan [options] {dir|jar|class} ...
+
+options:
+        --class-path PATH
+        --for-removal
+        --full-version
+  -? -h --help
+  -l    --list
+        --release 6|7|8|9|10|11
+  -v    --verbose
+        --version
+```
+
 # Compilation
 
 `mvn clean package` -> Require Java 12 onwards. 
